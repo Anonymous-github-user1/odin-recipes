@@ -1,0 +1,29 @@
+body {
+    background-color: #FFE399;
+    font-family:'Courier New', Courier, monospace
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 25px;
+    text-align: center;
+}
+
+div {
+    background-color: #99FFA4;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 50px;
+    width:450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
