@@ -4,7 +4,7 @@ body {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -14,11 +14,22 @@ body {
 }
 
 div {
-    background-color: #99FFA4;
-    width: 300px;
-    text-align: center;
+    background-color: #E899FF;
+    width: 600px;
     font-size: 20px;
+    border: 30px solid #E899FF;
+    border-radius: 40px;
 }
+
+.fatdiv {
+    background-color: #E899FF;
+    width: 1000px;
+    font-size: 20px;
+    border: 50px solid #E899FF;
+    border-radius: 40px;
+}
+
+
 
 img {
     border-radius: 50px;
