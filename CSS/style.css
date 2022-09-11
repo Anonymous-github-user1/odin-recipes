@@ -1,6 +1,6 @@
 body {
-    background-color: #FFE399;
-    font-family:'Courier New', Courier, monospace
+    background-image: url(https://img.freepik.com/premium-photo/white-watercolor-paper-texture-seamless-square-background-tile-ready-high-quality-texture-extremely-high-resolution_463999-342.jpg);
+    font-family:'Optima', Courier, monospace
 }
 
 .title {
@@ -11,25 +11,24 @@ body {
 .subtitle {
     font-size: 25px;
     text-align: center;
+    list-style-position: inside;
 }
 
 div {
-    background-color: #E899FF;
-    width: 600px;
+    background-image: url(https://i.pinimg.com/originals/e7/8f/52/e78f5248d0b9f9488b3ca700df0be9ba.png);
     font-size: 20px;
-    border: 30px solid #E899FF;
-    border-radius: 40px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .fatdiv {
-    background-color: #E899FF;
-    width: 1000px;
+    background-image: url(https://i.pinimg.com/originals/e7/8f/52/e78f5248d0b9f9488b3ca700df0be9ba.png);
     font-size: 20px;
-    border: 50px solid #E899FF;
-    border-radius: 40px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
 }
-
-
 
 img {
     border-radius: 50px;
@@ -38,3 +37,29 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+a:link {
+    color:black;
+    text-decoration:none;
+}
+
+a:visited {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover {
+    color:black;
+    text-decoration:none;
+    font-size: 30px;
+}
+
+a:active {
+    color:grey;
+    text-decoration:none;
+}
+
+.creds {
+    bottom: 0%;
+    position: fixed;
+}
